@@ -6,7 +6,7 @@ const Contact = () => {
     
       <div className="container mx-auto px-4">
         <h2 className="text-black text-3xl font-semibold mb-4">Contact Us</h2>
-        <p className="text-black leading-relaxed">
+        <p className="text-black text-2xl leading-relaxed">
           For inquiries or to request a quote, please use the form below or contact us at <strong>info@example.com</strong>.
         </p>
 
@@ -17,7 +17,7 @@ const Contact = () => {
               Name
             </label>
             <input
-              className="appearance-none border rounded w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
               id="name"
               type="text"
               placeholder="John Doe"
@@ -28,7 +28,7 @@ const Contact = () => {
               Email
             </label>
             <input
-              className="appearance-none border rounded w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
               placeholder="john@example.com"
@@ -39,7 +39,7 @@ const Contact = () => {
               Message
             </label>
             <textarea
-              className="appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline h-32 resize-none"
+              className="appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline h-32 resize-none"
               id="message"
               placeholder="Your message here..."
             />
