@@ -40,7 +40,7 @@ const Header = () => {
 
       {/* Mobile Menu (Hidden by default) */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-black p-4">
+        <div className="bg-black p-4">
           <div className="container mx-auto flex flex-col items-center space-y-4">
             <Link to="/" className="text-white">Home</Link>
             <Link to="/about" className="text-white">About Us</Link>
