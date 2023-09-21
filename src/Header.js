@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-red-500 p-4">
+    <header className="bg-black p-4"> {/* Change bg-green-300 to bg-blue-300 */}
       <div className="container mx-auto flex justify-between items-center">
         {/* Company Logo */}
         <h1 className="text-3xl font-semibold text-white">
@@ -40,7 +40,7 @@ const Header = () => {
 
       {/* Mobile Menu (Hidden by default) */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-red-500 p-4">
+        <div className="md:hidden bg-blue-500 p-4">
           <div className="container mx-auto flex flex-col items-center space-y-4">
             <Link to="/" className="text-white">Home</Link>
             <Link to="/about" className="text-white">About Us</Link>

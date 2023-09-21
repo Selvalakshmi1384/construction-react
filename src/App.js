@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
@@ -6,10 +7,11 @@ import AboutUs from './AboutUs';
 import Contact from './Contact';
 import Services from './Services';
 import Header from './Header';
+
 function App() {
   return (
     <Router>
-      <div>
+      <div className="background-container">
         <Header />
         <Home />
         <AboutUs/>
@@ -21,7 +23,6 @@ function App() {
           <Route path="/AboutUs" exact component={AboutUs} />
           <Route path="/Contact" exact component={Contact} />
           <Route path="/Services" exact component={Services} />
-          {/* Add more routes for other sections of your website */}
         </Routes>
       </div>
     </Router>
