@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Company Logo */}
         <h1 className="text-3xl font-semibold text-white">
-          <Link to="/">Construction Company</Link>
+          <Link to="/">Selva's Construction</Link>
         </h1>
 
         {/* Navbar Menu (Desktop) */}
