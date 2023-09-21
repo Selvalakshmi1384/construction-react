@@ -10,7 +10,7 @@ const Contact = () => {
           For inquiries or to request a quote, please use the form below or contact us at <strong>info@example.com</strong>.
         </p>
 
-        {/* Add your contact form here */}
+        
         <form className="mt-8">
           <div className="mb-4">
             <label className="block text-black text-sm font-bold mb-2" htmlFor="name">
