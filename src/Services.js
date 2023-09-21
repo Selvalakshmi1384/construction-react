@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section className="py-12 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOe-RS4kgpAXMIj7OPHTHQ8rjUHE3BeO88J0bH3ZL&s")'}}>
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-semibold mb-4">Our Services</h2>
+        <h2 className="text-3xl font-bold mb-4">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           <div className="bg-white rounded-lg shadow-md p-6">

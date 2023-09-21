@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="bg-gray-100 py-8 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOe-RS4kgpAXMIj7OPHTHQ8rjUHE3BeO88J0bH3ZL&s")'}}>
     
       <div className="container mx-auto px-4">
-        <h2 className="text-black text-3xl font-semibold mb-4">Contact Us</h2>
+        <h2 className="text-black text-3xl font-bold mb-4">Contact Us</h2>
         <p className="text-black text-2xl leading-relaxed">
           For inquiries or to request a quote, please use the form below or contact us at <strong>info@example.com</strong>.
         </p>
@@ -13,7 +13,7 @@ const Contact = () => {
         
         <form className="mt-8">
           <div className="mb-4">
-            <label className="block text-black text-sm font-bold mb-2" htmlFor="name">
+            <label className="block text-black text-2xl font-bold mb-2" htmlFor="name">
               Name
             </label>
             <input
@@ -24,7 +24,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-black text-sm font-bold mb-2" htmlFor="email">
+            <label className="block text-black text-2xl font-bold mb-2" htmlFor="email">
               Email
             </label>
             <input
@@ -35,7 +35,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-6">
-            <label className="block text-black text-sm font-bold mb-2" htmlFor="message">
+            <label className="block text-black text-2xl font-bold mb-2" htmlFor="message">
               Message
             </label>
             <textarea
@@ -46,9 +46,8 @@ const Contact = () => {
           </div>
           <div className="flex items-center justify-between">
             <button
-              className="bg-blue-400 hover:bg-white text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              type="submit"
-            >
+              className="bg-black hover:bg-white text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline text-2xl"
+              type="submit">
               Send Message
             </button>
           </div>
