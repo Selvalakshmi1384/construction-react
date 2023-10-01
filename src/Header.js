@@ -16,7 +16,7 @@ const Header = () => {
         </h1>
 
         <nav className="hidden md:flex items-center space-x-4">
-          <a href="/" className="text-white">Home</a>
+          <a href="/home" className="text-white">Home</a>
           <a href="/about" className="text-white">About Us</a>
           <a href="/services" className="text-white">Services</a>
           <a href="/contact" className="text-white">Contact</a>

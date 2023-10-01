@@ -3,6 +3,16 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gray-800 p-4 text-white">
+      
+      <div className="container mx-auto text-center">
+        
+        <p>123 Main Street, Cityville, State</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@selvasconstruction.com</p>
+        <p>&copy; 2023 Selva's Construction</p>
+        
+        
+      </div>
       <div className="flex justify-center mt-4">
           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -27,15 +37,6 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-      <div className="container mx-auto text-center">
-        
-        <p>123 Main Street, Cityville, State</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: info@selvasconstruction.com</p>
-        <p>&copy; 2023 Selva's Construction</p>
-        
-        
-      </div>
     </footer>
   );
 };
