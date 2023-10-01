@@ -1,17 +1,19 @@
 import React from 'react';
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('Form submitted!');
+  };
+
   return (
-    <section className="bg-gray-100 py-8 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOe-RS4kgpAXMIj7OPHTHQ8rjUHE3BeO88J0bH3ZL&s")'}}>
-    
+    <section id="contact" className="bg-gray-100 py-8 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOe-RS4kgpAXMIj7OPHTHQ8rjUHE3BeO88J0bH3ZL&s")'}}>
       <div className="container mx-auto px-4">
         <h2 className="text-black text-3xl font-bold mb-4">Contact Us</h2>
         <p className="text-black text-2xl leading-relaxed">
-          For inquiries or to request a quote, please use the form below or contact us at <strong>info@example.com</strong>.
+          For inquiries or to request a quote, please use the form below or contact us at <strong>info@selvasconstruction.com</strong>.
         </p>
-
-        
-        <form className="mt-8">
+        <form className="mt-8" onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-black text-2xl font-bold mb-2" htmlFor="name">
               Name
